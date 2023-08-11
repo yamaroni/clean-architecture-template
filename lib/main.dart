@@ -11,10 +11,6 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: Size(
-        MediaQuery.sizeOf(context).width,
-        MediaQuery.sizeOf(context).height,
-      ),
       builder: (context, child) {
         return MaterialApp(
           title: 'Flutter Demo',
